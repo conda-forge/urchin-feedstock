@@ -1,5 +1,5 @@
 {% set name = "urchin" %}
-{% set version = "0.0.29" %}
+{% set version = "0.0.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fishbotics/urchin/archive/refs/tags/v{{ version }}.zip
-  sha256: cca32a41634ca951c89e296d0dee309f058187e5d1a6c867fa36a33fe2aa21ed
+  sha256: f3dd40c041bfe77b5611552985c7a3f78240777886d2b2a96897cad29dd73991
 
 build:
   noarch: python
